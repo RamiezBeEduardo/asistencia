@@ -2,9 +2,9 @@ import { create } from 'zustand'
 import axios from "axios"
 
 // mock adapter para pruebas, quitar en produccion
-import planes from './planes.json'
-import cursos from './cursos.json'
-import secciones from './secciones.json'
+// import planes from './planes.json'
+// import cursos from './cursos.json'
+// import secciones from './secciones.json'
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 import timezone from 'dayjs/plugin/timezone'
@@ -52,6 +52,7 @@ const useStore = create((set, get) => ({
     planes: null,
     cursos: null,
     curso: null,
+    plan: null,
     secciones: null,
     alumnos: null,
 
@@ -97,17 +98,23 @@ const useStore = create((set, get) => ({
             curso: data
         })
     },
+    setPlan: (data: any) => {
+        console.log('set plan')
+        set({
+            plan: data
+        })
+    },
 
     getAlumnos: (data: any) => {
         console.log('get alumnos')
-        console.log(secciones.dato.length)
+        console.log(get().secciones.dato.length)
 
-        for (let i = 0; i < secciones.dato.length; i++) {
-            console.log(i + '//' + secciones.dato[i])
+        for (let i = 0; i < get().secciones.dato.length; i++) {
+            console.log(i + '//' + get().secciones.dato[i])
 
-            if (secciones.dato && secciones.dato[i] && secciones.dato[i].seccodi && secciones.dato[i].seccodi == data) {
+            if (get().secciones.dato && get().secciones.dato[i] && get().secciones.dato[i].seccodi && get().secciones.dato[i].seccodi == data) {
                 set({
-                    alumnos: secciones.dato[i].alumnos
+                    alumnos: get().secciones.dato[i].alumnos
                 })
             }
 

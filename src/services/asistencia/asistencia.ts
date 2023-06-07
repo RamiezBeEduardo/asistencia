@@ -7,7 +7,7 @@ export const listarPlanService = async () => {
     try {
         const response = await apiInstance.post(url, {
             dato: {
-                codigoCiclo: "20221",
+                codigoCiclo: "",
             },
         });
         return response.data;
@@ -20,7 +20,7 @@ export const listarCursoService = async (codigoPlan: any) => {
     try {
         const response = await apiInstance.post(url, {
             dato: {
-                codigoCiclo: "20221",
+                codigoCiclo: "",
                 codigoPlan: codigoPlan
             },
         });
@@ -30,11 +30,14 @@ export const listarCursoService = async (codigoPlan: any) => {
     }
 };
 export const listarInformacionService = async (codigoPlan: any, codigoCurso: any) => {
+    console.log('servicio')
+    console.log('codigoPlan = ', codigoPlan)
+    console.log('codigoCurso = ', codigoCurso)
     const url = '/campus/listar-informacion';
     try {
         const response = await apiInstance.post(url, {
             dato: {
-                codigoCiclo: "20221",
+                codigoCiclo: "",
                 codigoCurso: codigoCurso,
                 codigoPlan: codigoPlan
             },

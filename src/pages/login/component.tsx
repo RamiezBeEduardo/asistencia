@@ -4,6 +4,8 @@ import { Button, Form, Input, Select } from "antd";
 import useLoginStore from "../../store/login";
 
 const component = () => {
+  const [codigoPlan, setCodigoPlan] = React.useState();
+  const [codigoCurso, setCodigoCurso] = React.useState();
   const [form] = Form.useForm();
   const username = useLoginStore((state: any) => state.username);
   const login = useLoginStore((state: any) => state.login);
@@ -12,8 +14,6 @@ const component = () => {
   const cursos = useLoginStore((state: any) => state.cursos);
   const curso = useLoginStore((state: any) => state.curso);
   const setCurso = useLoginStore((state: any) => state.setCurso);
-  //   const cursoId = useLoginStore((state: any) => state.setCursoId);
-  //   const planId = useLoginStore((state: any) => state.setPlanId);
   const secciones = useLoginStore((state: any) => state.secciones);
   const getSecciones = useLoginStore((state: any) => state.getSecciones);
   const getAlumnos = useLoginStore((state: any) => state.getAlumnos);
@@ -21,11 +21,11 @@ const component = () => {
   const alumnos = useLoginStore((state: any) => state.alumnos);
   const sendData = useLoginStore((state: any) => state.sendData);
   //const [locals, setLocals] = useState(alumnos)
-  console.log("CURSO");
-  console.log(curso);
+  // console.log("CURSO");
+  // console.log(curso);
 
   const onFinish = async () => {
-    console.log("login button");
+    // console.log("login button");
     /*
         login({
             username: form.getFieldValue('username'), 
@@ -33,14 +33,14 @@ const component = () => {
         })
         */
     let res = await form.validateFields();
-    console.log(res);
+    // console.log(res);
     if (res) {
       getAlumnos(form.getFieldValue("seccion"));
     }
   };
 
   const idChange = () => {
-    console.log("login change");
+    // console.log("login change");
     if (form.getFieldValue("username") && form.getFieldValue("password")) {
       login({
         username: form.getFieldValue("username"),
@@ -50,22 +50,22 @@ const component = () => {
   };
 
   const planChange = (e: any) => {
-    console.log("plan Change");
-    console.log("plan Change = ", e);
+    // console.log("plan Change");
+    // console.log("plan Change = ", e);
     getCursos(e);
+    setCodigoPlan(e);
   };
 
   const cursoChange = (e: any) => {
-    console.log("curso Change");
     setCurso(e);
-    console.log("setCurso= ", setCurso);
-    getSecciones();
+    setCodigoCurso(e);
+    getSecciones(codigoPlan, e);
   };
 
   const seccionChange = (e: any) => {
-    console.log(e);
-    console.log("seccionChange = ", e);
-    console.log("seccion Change");
+    // console.log(e);
+    // console.log("seccionChange = ", e);
+    // console.log("seccion Change");
     // getAlumnos(e)
   };
 
@@ -94,7 +94,7 @@ const component = () => {
   }
 
   if (secciones && secciones.dato) {
-    console.log("secciones = ", secciones);
+    // console.log("secciones = ", secciones);
     seccion_options = secciones.dato.map((item: any) => {
       return (
         <Select.Option key={item.seccodi} value={item.seccodi}>
@@ -141,7 +141,7 @@ const component = () => {
             name="username"
             label="Usuario"
             rules={[{ required: true }]}
-            // initialValue={"usuario01"}
+            initialValue={"usuario01"}
           >
             <Input onBlur={idChange} />
           </Form.Item>
@@ -150,7 +150,7 @@ const component = () => {
             name="password"
             label="Contraseña"
             rules={[{ required: true }]}
-            // initialValue={"password"}
+            initialValue={"password"}
           >
             <Input onBlur={idChange} />
           </Form.Item>
@@ -181,18 +181,18 @@ const component = () => {
     );
   }
 
-  console.log("locals");
+  // console.log("locals");
   //console.log(locals)
 
   const handleClick = (item: any) => {
-    console.log("handleClick");
+    // console.log("handleClick");
     sendData({ ...item, curso: curso });
-    console.log(alumnos);
-    console.log(item);
+    // console.log(alumnos);
+    // console.log(item);
     let newalumnos = alumnos.filter((alumno: any) => {
       return item.codigoAlumno != alumno.codigoAlumno;
     });
-    console.log(newalumnos);
+    // console.log(newalumnos);
     setAlumnos(newalumnos);
   };
 
