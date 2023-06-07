@@ -1,0 +1,203 @@
+{
+    "resultado": 1,
+    "mensaje": "Consulta Satisfactorias",
+    "dato": [
+        {
+            "crrcodi": "0201"
+        },
+        {
+            "crrcodi": "0203"
+        },
+        {
+            "crrcodi": "0302"
+        },
+        {
+            "crrcodi": "0304"
+        },
+        {
+            "crrcodi": "0403"
+        },
+        {
+            "crrcodi": "0404"
+        },
+        {
+            "crrcodi": "0501"
+        },
+        {
+            "crrcodi": "0703"
+        },
+        {
+            "crrcodi": "0705"
+        },
+        {
+            "crrcodi": "0801"
+        },
+        {
+            "crrcodi": "0802"
+        },
+        {
+            "crrcodi": "0901"
+        },
+        {
+            "crrcodi": "0902"
+        },
+        {
+            "crrcodi": "1001"
+        },
+        {
+            "crrcodi": "1003"
+        },
+        {
+            "crrcodi": "1101"
+        },
+        {
+            "crrcodi": "1102"
+        },
+        {
+            "crrcodi": "1224"
+        },
+        {
+            "crrcodi": "1226"
+        },
+        {
+            "crrcodi": "1229"
+        },
+        {
+            "crrcodi": "1230"
+        },
+        {
+            "crrcodi": "1232"
+        },
+        {
+            "crrcodi": "1233"
+        },
+        {
+            "crrcodi": "1301"
+        },
+        {
+            "crrcodi": "1303"
+        },
+        {
+            "crrcodi": "1304"
+        },
+        {
+            "crrcodi": "1403"
+        },
+        {
+            "crrcodi": "1404"
+        },
+        {
+            "crrcodi": "1502"
+        },
+        {
+            "crrcodi": "1503"
+        },
+        {
+            "crrcodi": "1703"
+        },
+        {
+            "crrcodi": "1704"
+        },
+        {
+            "crrcodi": "1901"
+        },
+        {
+            "crrcodi": "1902"
+        },
+        {
+            "crrcodi": "2002"
+        },
+        {
+            "crrcodi": "2003"
+        },
+        {
+            "crrcodi": "2101"
+        },
+        {
+            "crrcodi": "2102"
+        },
+        {
+            "crrcodi": "2403"
+        },
+        {
+            "crrcodi": "2404"
+        },
+        {
+            "crrcodi": "2501"
+        },
+        {
+            "crrcodi": "2503"
+        },
+        {
+            "crrcodi": "2601"
+        },
+        {
+            "crrcodi": "2602"
+        },
+        {
+            "crrcodi": "2802"
+        },
+        {
+            "crrcodi": "2901"
+        },
+        {
+            "crrcodi": "2902"
+        },
+        {
+            "crrcodi": "3001"
+        },
+        {
+            "crrcodi": "3002"
+        },
+        {
+            "crrcodi": "3101"
+        },
+        {
+            "crrcodi": "3201"
+        },
+        {
+            "crrcodi": "3202"
+        },
+        {
+            "crrcodi": "3501"
+        },
+        {
+            "crrcodi": "3502"
+        },
+        {
+            "crrcodi": "3601"
+        },
+        {
+            "crrcodi": "3602"
+        },
+        {
+            "crrcodi": "3603"
+        },
+        {
+            "crrcodi": "3802"
+        },
+        {
+            "crrcodi": "5201"
+        },
+        {
+            "crrcodi": "5505"
+        },
+        {
+            "crrcodi": "6003"
+        },
+        {
+            "crrcodi": "6006"
+        },
+        {
+            "crrcodi": "8202"
+        },
+        {
+            "crrcodi": "AN03"
+        }
+    ],
+    "dato2": null,
+    "actionCode": null,
+    "idPagoElectronico": null,
+    "totalFilas": null,
+    "totalPages": null
+}

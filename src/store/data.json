@@ -1,0 +1,11 @@
+{
+    "usuario": "usuario01",
+    "password": "password",
+    "docente":  "Mg. Juan Antonio Gómez Ricalde",
+    "cursos": [
+        {
+            "nombre": "Introducción a la Vida Universitaria I",
+            "semestre": "2023-II",
+        }
+    ]
+}

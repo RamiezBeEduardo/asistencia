@@ -1,0 +1,959 @@
+{
+    "resultado": 1,
+    "mensaje": "Consulta Satisfactorias",
+    "dato": [
+        {
+            "seccodi": "350110011",
+            "seccion": "01",
+            "alumnos": [
+                {
+                    "codigoAlumno": "2011152520",
+                    "nombre": "MONICA FIORELLA",
+                    "apellidoPaterno": "MORI",
+                    "apellidoMaterno": "VALERA"
+                },
+                {
+                    "codigoAlumno": "2012134791",
+                    "nombre": "CARMEN ROSA",
+                    "apellidoPaterno": "CAJAMARCA",
+                    "apellidoMaterno": "ROQUE"
+                },
+                {
+                    "codigoAlumno": "2012231653",
+                    "nombre": "ANGEL ALBERTO",
+                    "apellidoPaterno": "GÓMEZ",
+                    "apellidoMaterno": "QUISPE"
+                },
+                {
+                    "codigoAlumno": "2012305116",
+                    "nombre": "VILMA",
+                    "apellidoPaterno": "JERI",
+                    "apellidoMaterno": "CASTILLO"
+                },
+                {
+                    "codigoAlumno": "2013119594",
+                    "nombre": "AUGUSTA CONDEZA",
+                    "apellidoPaterno": "FRANCO",
+                    "apellidoMaterno": "BUSTAMANTE"
+                },
+                {
+                    "codigoAlumno": "2013157971",
+                    "nombre": "RUTH LEYNI MARGARETH",
+                    "apellidoPaterno": "QUISPE",
+                    "apellidoMaterno": "HANCCO"
+                },
+                {
+                    "codigoAlumno": "2013233441",
+                    "nombre": "JOVER EDWIN",
+                    "apellidoPaterno": "MEDINA",
+                    "apellidoMaterno": "CHUCHON"
+                },
+                {
+                    "codigoAlumno": "2014121955",
+                    "nombre": "SHEYLA FIORELA",
+                    "apellidoPaterno": "QUEZADA",
+                    "apellidoMaterno": "RUMICHE"
+                },
+                {
+                    "codigoAlumno": "2015102938",
+                    "nombre": "LIZBETH",
+                    "apellidoPaterno": "SANCHEZ",
+                    "apellidoMaterno": "ALANIA"
+                },
+                {
+                    "codigoAlumno": "2015103076",
+                    "nombre": "DARCY JUNIOR",
+                    "apellidoPaterno": "ROMAN",
+                    "apellidoMaterno": "VERA"
+                },
+                {
+                    "codigoAlumno": "2015104902",
+                    "nombre": "GERSON ENRIQUE",
+                    "apellidoPaterno": "HUAYTA",
+                    "apellidoMaterno": "MERA"
+                },
+                {
+                    "codigoAlumno": "2015110742",
+                    "nombre": "JOHNY ROBIAN",
+                    "apellidoPaterno": "CALDERON",
+                    "apellidoMaterno": "SEGUIN"
+                },
+                {
+                    "codigoAlumno": "2015122037",
+                    "nombre": "MARYORI STEFANY",
+                    "apellidoPaterno": "ARMAS",
+                    "apellidoMaterno": "BUSTILLOS"
+                },
+                {
+                    "codigoAlumno": "2015123285",
+                    "nombre": "NELY",
+                    "apellidoPaterno": "TORRES",
+                    "apellidoMaterno": "ORTEGA"
+                },
+                {
+                    "codigoAlumno": "2015135927",
+                    "nombre": "ZENITH ",
+                    "apellidoPaterno": "CANO",
+                    "apellidoMaterno": "DAMIAN"
+                },
+                {
+                    "codigoAlumno": "2015147344",
+                    "nombre": "ALLAN RICARDO",
+                    "apellidoPaterno": "TERPIN",
+                    "apellidoMaterno": "HUAMANI"
+                },
+                {
+                    "codigoAlumno": "2015151570",
+                    "nombre": "EDSON ROGELIO",
+                    "apellidoPaterno": "CECILIO",
+                    "apellidoMaterno": "REYES"
+                },
+                {
+                    "codigoAlumno": "2015152451",
+                    "nombre": "LUIS FERNANDO",
+                    "apellidoPaterno": "LOPEZ",
+                    "apellidoMaterno": "MEZA"
+                },
+                {
+                    "codigoAlumno": "2015157415",
+                    "nombre": "LUIS ANGEL",
+                    "apellidoPaterno": "RODRIGUEZ",
+                    "apellidoMaterno": "GARATE"
+                },
+                {
+                    "codigoAlumno": "2015216551",
+                    "nombre": "FABRICIO SAMIR",
+                    "apellidoPaterno": "BOBADILLA",
+                    "apellidoMaterno": "CALDERÓN"
+                },
+                {
+                    "codigoAlumno": "2015218664",
+                    "nombre": "ASHLY MARIETTE",
+                    "apellidoPaterno": "VALDEZ",
+                    "apellidoMaterno": "RIVERA"
+                },
+                {
+                    "codigoAlumno": "2015219532",
+                    "nombre": "LISBET",
+                    "apellidoPaterno": "SALINAS",
+                    "apellidoMaterno": "ATAO"
+                },
+                {
+                    "codigoAlumno": "2015220132",
+                    "nombre": "SHEILA NATALY",
+                    "apellidoPaterno": "CALERO",
+                    "apellidoMaterno": "NATIVIDAD"
+                },
+                {
+                    "codigoAlumno": "2015220741",
+                    "nombre": "GILBERTH ELADIO",
+                    "apellidoPaterno": "ARIZA",
+                    "apellidoMaterno": "LAZO"
+                },
+                {
+                    "codigoAlumno": "2015230253",
+                    "nombre": "MIJAEL GEORGE",
+                    "apellidoPaterno": "GUTIERREZ",
+                    "apellidoMaterno": "YUPANQUI"
+                },
+                {
+                    "codigoAlumno": "2016101790",
+                    "nombre": "LUCERO INGRID",
+                    "apellidoPaterno": "SIFUENTES",
+                    "apellidoMaterno": "MENDOZA"
+                },
+                {
+                    "codigoAlumno": "2016121888",
+                    "nombre": "KLERINA KAZANDRA",
+                    "apellidoPaterno": "FERNANDEZ",
+                    "apellidoMaterno": "MEZA"
+                },
+                {
+                    "codigoAlumno": "2016151042",
+                    "nombre": "ANGIE JULITZA",
+                    "apellidoPaterno": "CRUZ",
+                    "apellidoMaterno": "LOPEZ"
+                },
+                {
+                    "codigoAlumno": "2016152289",
+                    "nombre": "DILMAR",
+                    "apellidoPaterno": "AÑASCO",
+                    "apellidoMaterno": "MACEDO"
+                },
+                {
+                    "codigoAlumno": "2016154039",
+                    "nombre": "LUIS  ALFREDO",
+                    "apellidoPaterno": "CABRERA",
+                    "apellidoMaterno": "OCHOA"
+                },
+                {
+                    "codigoAlumno": "2016154844",
+                    "nombre": "PAUL ANGEL",
+                    "apellidoPaterno": "CCOLLANA",
+                    "apellidoMaterno": "HUAMANI"
+                },
+                {
+                    "codigoAlumno": "2016200521",
+                    "nombre": "SANDRA ROMINA",
+                    "apellidoPaterno": "VASQUEZ",
+                    "apellidoMaterno": "RODRIGUEZ"
+                },
+                {
+                    "codigoAlumno": "2016201047",
+                    "nombre": "MICHELLE ALEJANDRA",
+                    "apellidoPaterno": "ARIAS",
+                    "apellidoMaterno": "COLOBON"
+                },
+                {
+                    "codigoAlumno": "2016203876",
+                    "nombre": "MARÍA LUZMILA",
+                    "apellidoPaterno": "CACHIQUE",
+                    "apellidoMaterno": "AMASIFUEN"
+                },
+                {
+                    "codigoAlumno": "2016207395",
+                    "nombre": "DANIELA PATRICIA",
+                    "apellidoPaterno": "ROSALES",
+                    "apellidoMaterno": "VALDIVIA"
+                },
+                {
+                    "codigoAlumno": "2016212984",
+                    "nombre": "JALIA KARI",
+                    "apellidoPaterno": "CHULLO",
+                    "apellidoMaterno": "JAIMES"
+                },
+                {
+                    "codigoAlumno": "2016231091",
+                    "nombre": "ABiGAIL NICOL",
+                    "apellidoPaterno": "QUISPE",
+                    "apellidoMaterno": "QUINTANA"
+                },
+                {
+                    "codigoAlumno": "2016231279",
+                    "nombre": "YUBER",
+                    "apellidoPaterno": "VASQUEZ",
+                    "apellidoMaterno": "PAREDES"
+                },
+                {
+                    "codigoAlumno": "2016236189",
+                    "nombre": "MIGUEL ANGEL",
+                    "apellidoPaterno": "BARDALES",
+                    "apellidoMaterno": "SANGAMA"
+                },
+                {
+                    "codigoAlumno": "2017103130",
+                    "nombre": "DONA JHOSI",
+                    "apellidoPaterno": "SALCEDO",
+                    "apellidoMaterno": "ROBLES"
+                },
+                {
+                    "codigoAlumno": "2017103310",
+                    "nombre": "NILDA MARITZA",
+                    "apellidoPaterno": "ENRIQUEZ",
+                    "apellidoMaterno": "AGUILAR"
+                },
+                {
+                    "codigoAlumno": "2017109074",
+                    "nombre": "ANALÍ LISBETH",
+                    "apellidoPaterno": "CHOCÁN",
+                    "apellidoMaterno": "NOLASCO"
+                },
+                {
+                    "codigoAlumno": "2017109100",
+                    "nombre": "ELISETH",
+                    "apellidoPaterno": "MANAYAY",
+                    "apellidoMaterno": "SÁNCHEZ"
+                },
+                {
+                    "codigoAlumno": "2017109179",
+                    "nombre": "ANALÍ",
+                    "apellidoPaterno": "ENRÍQUEZ",
+                    "apellidoMaterno": "HUANCAS"
+                },
+                {
+                    "codigoAlumno": "2017109744",
+                    "nombre": "DARWIN PIO",
+                    "apellidoPaterno": "FLORES",
+                    "apellidoMaterno": "HUAMAN"
+                },
+                {
+                    "codigoAlumno": "2017110412",
+                    "nombre": "DIEGO SOLANO",
+                    "apellidoPaterno": "MAMANI",
+                    "apellidoMaterno": "TICONA"
+                },
+                {
+                    "codigoAlumno": "2017112710",
+                    "nombre": "RUBEN",
+                    "apellidoPaterno": "CACHICATARI",
+                    "apellidoMaterno": "MAMANI"
+                },
+                {
+                    "codigoAlumno": "2017112789",
+                    "nombre": "WILBER LUIS",
+                    "apellidoPaterno": "HUACCA",
+                    "apellidoMaterno": "CCASO"
+                },
+                {
+                    "codigoAlumno": "2017113210",
+                    "nombre": "ETHEL MILENA",
+                    "apellidoPaterno": "GRIMALDO",
+                    "apellidoMaterno": "RAMIREZ"
+                },
+                {
+                    "codigoAlumno": "2017115930",
+                    "nombre": "MIRIAN",
+                    "apellidoPaterno": "TAFUR",
+                    "apellidoMaterno": "SALAZAR"
+                },
+                {
+                    "codigoAlumno": "2017117451",
+                    "nombre": "KELVIN EDINSON",
+                    "apellidoPaterno": "POMA",
+                    "apellidoMaterno": "ALIAGA"
+                },
+                {
+                    "codigoAlumno": "2017118205",
+                    "nombre": "CARLOS RICARDO",
+                    "apellidoPaterno": "CASTRO",
+                    "apellidoMaterno": "GUERRA"
+                },
+                {
+                    "codigoAlumno": "2017122718",
+                    "nombre": "JUAN CARLOS ",
+                    "apellidoPaterno": "MANRIQUE",
+                    "apellidoMaterno": "QUISPE"
+                },
+                {
+                    "codigoAlumno": "2017129703",
+                    "nombre": "PABLO CHRISTIAN",
+                    "apellidoPaterno": "AREVALO",
+                    "apellidoMaterno": "PEREZ"
+                },
+                {
+                    "codigoAlumno": "2017130019",
+                    "nombre": "HARDY EDGARDO",
+                    "apellidoPaterno": "PANDURO",
+                    "apellidoMaterno": "AMASIFUEN"
+                },
+                {
+                    "codigoAlumno": "2017130024",
+                    "nombre": "ANGIE",
+                    "apellidoPaterno": "VELA",
+                    "apellidoMaterno": "DEL AGUILA"
+                },
+                {
+                    "codigoAlumno": "2017200631",
+                    "nombre": "ERICHTSON",
+                    "apellidoPaterno": "GOMEZ",
+                    "apellidoMaterno": "SARMIENTO"
+                },
+                {
+                    "codigoAlumno": "2017202386",
+                    "nombre": "ROXANA GISSELE",
+                    "apellidoPaterno": "KONG REQUENA",
+                    "apellidoMaterno": "MONTENEGRO"
+                },
+                {
+                    "codigoAlumno": "2017204637",
+                    "nombre": "ELIZABETH",
+                    "apellidoPaterno": "ROQUE",
+                    "apellidoMaterno": "QUISPE"
+                },
+                {
+                    "codigoAlumno": "2017204702",
+                    "nombre": "LISEL YASMIN",
+                    "apellidoPaterno": "NAYHUA",
+                    "apellidoMaterno": "MEJIA"
+                },
+                {
+                    "codigoAlumno": "2017205524",
+                    "nombre": "AQUILES FELIPE",
+                    "apellidoPaterno": "QUISPE",
+                    "apellidoMaterno": "ARCE"
+                },
+                {
+                    "codigoAlumno": "2017205540",
+                    "nombre": "DEYSA GISELA",
+                    "apellidoPaterno": "QUINTANILLA",
+                    "apellidoMaterno": "DEL SOLAR"
+                },
+                {
+                    "codigoAlumno": "2017211112",
+                    "nombre": "PATRICIA",
+                    "apellidoPaterno": "GONZALES",
+                    "apellidoMaterno": "CASCAMAYTA"
+                },
+                {
+                    "codigoAlumno": "2017211619",
+                    "nombre": "YENIFFER PIERINA",
+                    "apellidoPaterno": "DURAND",
+                    "apellidoMaterno": "CACERES"
+                },
+                {
+                    "codigoAlumno": "2017211700",
+                    "nombre": "JORDY PAÚL",
+                    "apellidoPaterno": "SARMIENTO",
+                    "apellidoMaterno": "TAPIA"
+                },
+                {
+                    "codigoAlumno": "2017212113",
+                    "nombre": "ANGEL ENRRIQUE",
+                    "apellidoPaterno": "GUEVARA",
+                    "apellidoMaterno": "CARAMANTIN"
+                },
+                {
+                    "codigoAlumno": "2017212172",
+                    "nombre": "LUZ MARILE",
+                    "apellidoPaterno": "PEREZ",
+                    "apellidoMaterno": "HORNA"
+                },
+                {
+                    "codigoAlumno": "2017215913",
+                    "nombre": "YOSHY IZUMI",
+                    "apellidoPaterno": "SUCAPUCA",
+                    "apellidoMaterno": "CHURA"
+                },
+                {
+                    "codigoAlumno": "2017215922",
+                    "nombre": "RUBEN ABELARDO",
+                    "apellidoPaterno": "PARRA",
+                    "apellidoMaterno": "VERA"
+                },
+                {
+                    "codigoAlumno": "2017215979",
+                    "nombre": "OFELIA ASCENCIA",
+                    "apellidoPaterno": "VERA",
+                    "apellidoMaterno": "TEJADA"
+                },
+                {
+                    "codigoAlumno": "2017216056",
+                    "nombre": "MOORE LLENS",
+                    "apellidoPaterno": "AREVALO",
+                    "apellidoMaterno": "DIAZ"
+                },
+                {
+                    "codigoAlumno": "2017219001",
+                    "nombre": "BRENDA THAIS",
+                    "apellidoPaterno": "JUAREZ",
+                    "apellidoMaterno": "CLOUD"
+                }
+            ]
+        },
+        {
+            "seccodi": "350110051",
+            "seccion": "05",
+            "alumnos": [
+                {
+                    "codigoAlumno": "2010158951",
+                    "nombre": "ROSIO ELIZABETH",
+                    "apellidoPaterno": "ZUÑIGA",
+                    "apellidoMaterno": "TOLENTINO"
+                },
+                {
+                    "codigoAlumno": "2010169342",
+                    "nombre": "YOHANNY",
+                    "apellidoPaterno": "VELÁSQUEZ",
+                    "apellidoMaterno": "ANDÍA"
+                },
+                {
+                    "codigoAlumno": "2010169632",
+                    "nombre": "JONATHAN OMAR",
+                    "apellidoPaterno": "LOPEZ",
+                    "apellidoMaterno": "MALAGA"
+                },
+                {
+                    "codigoAlumno": "2010175123",
+                    "nombre": "MARILYN LEYDDI",
+                    "apellidoPaterno": "SANCHEZ",
+                    "apellidoMaterno": "MAQUERHUA"
+                },
+                {
+                    "codigoAlumno": "2010175427",
+                    "nombre": "ANDERSON MIGUEL",
+                    "apellidoPaterno": "VENTURA",
+                    "apellidoMaterno": "SANTIAGO"
+                },
+                {
+                    "codigoAlumno": "2010220316",
+                    "nombre": "NATALY LIZET",
+                    "apellidoPaterno": "RODRIGUEZ",
+                    "apellidoMaterno": "OCHOA"
+                },
+                {
+                    "codigoAlumno": "2010221662",
+                    "nombre": "NEDIA MARLENE",
+                    "apellidoPaterno": "TORRES",
+                    "apellidoMaterno": "YOLGO"
+                },
+                {
+                    "codigoAlumno": "2011166467",
+                    "nombre": "DAVID ISMAEL",
+                    "apellidoPaterno": "DELGADO",
+                    "apellidoMaterno": "NAVEDA"
+                },
+                {
+                    "codigoAlumno": "2011175978",
+                    "nombre": "JAMI INES",
+                    "apellidoPaterno": "OROSCO",
+                    "apellidoMaterno": "CAJAS"
+                },
+                {
+                    "codigoAlumno": "2011203564",
+                    "nombre": "ELEODOR",
+                    "apellidoPaterno": "ROJAS",
+                    "apellidoMaterno": "RUA"
+                },
+                {
+                    "codigoAlumno": "2011220357",
+                    "nombre": "ANTHONY  JONATHAN",
+                    "apellidoPaterno": "CARRASCO",
+                    "apellidoMaterno": "MARTINO"
+                },
+                {
+                    "codigoAlumno": "2011221981",
+                    "nombre": "ELI YSUI",
+                    "apellidoPaterno": "BARRETO",
+                    "apellidoMaterno": "CHECMAPOCCO"
+                },
+                {
+                    "codigoAlumno": "2012131349",
+                    "nombre": "SELENA BEATRIZ",
+                    "apellidoPaterno": "GIRON",
+                    "apellidoMaterno": "ARIAS"
+                },
+                {
+                    "codigoAlumno": "2012154625",
+                    "nombre": "BETSY",
+                    "apellidoPaterno": "DOMINGUEZ",
+                    "apellidoMaterno": "ATAO"
+                },
+                {
+                    "codigoAlumno": "2012210056",
+                    "nombre": "ALBERTO",
+                    "apellidoPaterno": "JILAPA",
+                    "apellidoMaterno": "QUISPE"
+                },
+                {
+                    "codigoAlumno": "2012227751",
+                    "nombre": "MIRIAM ELIZABETH",
+                    "apellidoPaterno": "ALMERON",
+                    "apellidoMaterno": "YTUZA"
+                },
+                {
+                    "codigoAlumno": "2012232218",
+                    "nombre": "JOSE ROLANDO",
+                    "apellidoPaterno": "CASTRO",
+                    "apellidoMaterno": "BARAZORDA"
+                },
+                {
+                    "codigoAlumno": "2013114991",
+                    "nombre": "SADITH SARILA",
+                    "apellidoPaterno": "FLORES",
+                    "apellidoMaterno": "TARAZONA"
+                },
+                {
+                    "codigoAlumno": "2013160556",
+                    "nombre": "CHRISTIAN PAUL",
+                    "apellidoPaterno": "CONDOR",
+                    "apellidoMaterno": "SOTELO"
+                },
+                {
+                    "codigoAlumno": "2013202751",
+                    "nombre": "CINTHIA LIZBETH",
+                    "apellidoPaterno": "MARTINEZ",
+                    "apellidoMaterno": "CARRION"
+                },
+                {
+                    "codigoAlumno": "2013226745",
+                    "nombre": "ELVIS JHONATAN",
+                    "apellidoPaterno": "HUAQUIPACO",
+                    "apellidoMaterno": "MAMANI"
+                },
+                {
+                    "codigoAlumno": "2014125412",
+                    "nombre": "MIGUEL ANGEL",
+                    "apellidoPaterno": "CORRALES",
+                    "apellidoMaterno": "SALAS"
+                },
+                {
+                    "codigoAlumno": "2014131163",
+                    "nombre": "EVELYN DIANA",
+                    "apellidoPaterno": "CELADITA",
+                    "apellidoMaterno": "CONTRERAS"
+                },
+                {
+                    "codigoAlumno": "2017102063",
+                    "nombre": "RIXI SMITH",
+                    "apellidoPaterno": "LEON",
+                    "apellidoMaterno": "HUAMAN"
+                },
+                {
+                    "codigoAlumno": "2017110055",
+                    "nombre": "EDWIN",
+                    "apellidoPaterno": "CCUITO",
+                    "apellidoMaterno": "LOPINTA"
+                },
+                {
+                    "codigoAlumno": "2017131059",
+                    "nombre": "DINA DOYLITH",
+                    "apellidoPaterno": "DEL AGUILA",
+                    "apellidoMaterno": "DÁVILA"
+                },
+                {
+                    "codigoAlumno": "2017132193",
+                    "nombre": "LISBETH MAYUME",
+                    "apellidoPaterno": "CCUNISLLA",
+                    "apellidoMaterno": "AYALA"
+                },
+                {
+                    "codigoAlumno": "2017200842",
+                    "nombre": "JUAN CARLOS",
+                    "apellidoPaterno": "ARANGO",
+                    "apellidoMaterno": "CONDE"
+                },
+                {
+                    "codigoAlumno": "2017210850",
+                    "nombre": "BRAYHANT JOSUE",
+                    "apellidoPaterno": "VALENCIA",
+                    "apellidoMaterno": "FERNANDEZ"
+                }
+            ]
+        },
+        {
+            "seccodi": "350110061",
+            "seccion": "06",
+            "alumnos": [
+                {
+                    "codigoAlumno": "2010170461",
+                    "nombre": "GHINO JELTSIN",
+                    "apellidoPaterno": "MIRANDA",
+                    "apellidoMaterno": "ROJAS"
+                },
+                {
+                    "codigoAlumno": "2010219115",
+                    "nombre": "MIRNA ROSARIO",
+                    "apellidoPaterno": "JUAREZ",
+                    "apellidoMaterno": "CANELA"
+                },
+                {
+                    "codigoAlumno": "2010229904",
+                    "nombre": "DEVIS MARTIN",
+                    "apellidoPaterno": "ARAGON",
+                    "apellidoMaterno": "RAMOS"
+                },
+                {
+                    "codigoAlumno": "2011202079",
+                    "nombre": "JAIME",
+                    "apellidoPaterno": "DE LA TORRE",
+                    "apellidoMaterno": "MOQUILLAZA"
+                },
+                {
+                    "codigoAlumno": "2011228849",
+                    "nombre": "REDY MAURICIO",
+                    "apellidoPaterno": "CARPIO",
+                    "apellidoMaterno": "QUINTASI"
+                },
+                {
+                    "codigoAlumno": "2012117352",
+                    "nombre": "KATHERINE  LUCERO",
+                    "apellidoPaterno": "LUQUE",
+                    "apellidoMaterno": "TITO"
+                },
+                {
+                    "codigoAlumno": "2012154348",
+                    "nombre": "SERGIO ROBERT",
+                    "apellidoPaterno": "PARVINA",
+                    "apellidoMaterno": "GÓMEZ"
+                },
+                {
+                    "codigoAlumno": "2012220758",
+                    "nombre": "ARLETH",
+                    "apellidoPaterno": "VARA",
+                    "apellidoMaterno": "SISA"
+                },
+                {
+                    "codigoAlumno": "2012232371",
+                    "nombre": "NAYSHA ANTUANE",
+                    "apellidoPaterno": "MALDONADO",
+                    "apellidoMaterno": "PARVINA"
+                },
+                {
+                    "codigoAlumno": "2013110484",
+                    "nombre": "FREDY NELSON",
+                    "apellidoPaterno": "NUÑEZ",
+                    "apellidoMaterno": "BARRIOS"
+                },
+                {
+                    "codigoAlumno": "2013124127",
+                    "nombre": "HENDERSON JESUS",
+                    "apellidoPaterno": "RAMIREZ",
+                    "apellidoMaterno": "CAJAN"
+                },
+                {
+                    "codigoAlumno": "2013145483",
+                    "nombre": "ANDREWS ANTHONY",
+                    "apellidoPaterno": "VALDIVIA",
+                    "apellidoMaterno": "RAMIREZ"
+                },
+                {
+                    "codigoAlumno": "2013145537",
+                    "nombre": "PAULITA ROSA",
+                    "apellidoPaterno": "VALLES",
+                    "apellidoMaterno": "CUCHILLA"
+                },
+                {
+                    "codigoAlumno": "2013157139",
+                    "nombre": "SANDIVEL",
+                    "apellidoPaterno": "QUISPE",
+                    "apellidoMaterno": "GUTIERREZ"
+                },
+                {
+                    "codigoAlumno": "2013226690",
+                    "nombre": "YENYFFER MEDALYT",
+                    "apellidoPaterno": "PANCCA",
+                    "apellidoMaterno": "QUISPE"
+                },
+                {
+                    "codigoAlumno": "2014119395",
+                    "nombre": "BERTHA VERONICA",
+                    "apellidoPaterno": "LEON",
+                    "apellidoMaterno": "CHOQUE"
+                },
+                {
+                    "codigoAlumno": "2014128250",
+                    "nombre": "BELÉN LIZ",
+                    "apellidoPaterno": "OROSCO",
+                    "apellidoMaterno": "GONZÁLES"
+                },
+                {
+                    "codigoAlumno": "2014130412",
+                    "nombre": "NOHELIA",
+                    "apellidoPaterno": "USTUA",
+                    "apellidoMaterno": "SOTELO"
+                },
+                {
+                    "codigoAlumno": "2014132650",
+                    "nombre": "ROMEL CARLOS",
+                    "apellidoPaterno": "UGARTE",
+                    "apellidoMaterno": "MASIAS"
+                },
+                {
+                    "codigoAlumno": "2014134531",
+                    "nombre": "ELVA YENILDA",
+                    "apellidoPaterno": "CONDORI",
+                    "apellidoMaterno": "CHIRA"
+                },
+                {
+                    "codigoAlumno": "2014143655",
+                    "nombre": "LINN BEATRIZ",
+                    "apellidoPaterno": "REYES",
+                    "apellidoMaterno": "SOTO"
+                },
+                {
+                    "codigoAlumno": "2014201139",
+                    "nombre": "GERALDINE LIZBETH",
+                    "apellidoPaterno": "ARIAS",
+                    "apellidoMaterno": "CASTILLO"
+                },
+                {
+                    "codigoAlumno": "2014203401",
+                    "nombre": "RUGBI",
+                    "apellidoPaterno": "NAVARRO",
+                    "apellidoMaterno": "DIAZ"
+                },
+                {
+                    "codigoAlumno": "2014213656",
+                    "nombre": "YESENIA MARIA",
+                    "apellidoPaterno": "QUISPE",
+                    "apellidoMaterno": "BARRIGA"
+                },
+                {
+                    "codigoAlumno": "2014222320",
+                    "nombre": "ESTEFANIA DEL ROSARI",
+                    "apellidoPaterno": "TITO",
+                    "apellidoMaterno": "LOVERA"
+                },
+                {
+                    "codigoAlumno": "2014227456",
+                    "nombre": "DEENJHA LISBETH",
+                    "apellidoPaterno": "RAMIREZ",
+                    "apellidoMaterno": "ATOCHE"
+                },
+                {
+                    "codigoAlumno": "2015108320",
+                    "nombre": "MAGDA MILAGROS",
+                    "apellidoPaterno": "TERRONES",
+                    "apellidoMaterno": "GONZALES"
+                },
+                {
+                    "codigoAlumno": "2015117956",
+                    "nombre": "DAFFNE TATIANA",
+                    "apellidoPaterno": "REYES",
+                    "apellidoMaterno": "BUSTAMANTE"
+                },
+                {
+                    "codigoAlumno": "2015122106",
+                    "nombre": "BRESCIA ANABEL",
+                    "apellidoPaterno": "GARAY",
+                    "apellidoMaterno": "CRUZ"
+                },
+                {
+                    "codigoAlumno": "2015123458",
+                    "nombre": "JUAN LUIS",
+                    "apellidoPaterno": "TINTA",
+                    "apellidoMaterno": "MESCCO"
+                },
+                {
+                    "codigoAlumno": "2015125929",
+                    "nombre": "CLAUDIA MILAGROS",
+                    "apellidoPaterno": "BRINGAS",
+                    "apellidoMaterno": "MAQUERA"
+                },
+                {
+                    "codigoAlumno": "2015155016",
+                    "nombre": "KATHERYN VERONICA",
+                    "apellidoPaterno": "ESCOBAR",
+                    "apellidoMaterno": "GONZALES"
+                },
+                {
+                    "codigoAlumno": "2015155553",
+                    "nombre": "NIRSA ESTHER",
+                    "apellidoPaterno": "CHÁVEZ",
+                    "apellidoMaterno": "BORDA"
+                },
+                {
+                    "codigoAlumno": "2015209707",
+                    "nombre": "MELISSA YURNET",
+                    "apellidoPaterno": "VASQUEZ",
+                    "apellidoMaterno": "SANCHEZ DE HOYOS"
+                },
+                {
+                    "codigoAlumno": "2016115097",
+                    "nombre": "JANDER JOSE",
+                    "apellidoPaterno": "DELGADO",
+                    "apellidoMaterno": "LAMA"
+                },
+                {
+                    "codigoAlumno": "2016118576",
+                    "nombre": "JHOANA KARIN",
+                    "apellidoPaterno": "DURAND",
+                    "apellidoMaterno": "ESPINOZA"
+                },
+                {
+                    "codigoAlumno": "2016120236",
+                    "nombre": "GÜIDO ANDRE",
+                    "apellidoPaterno": "MOREANO",
+                    "apellidoMaterno": "FLORES"
+                },
+                {
+                    "codigoAlumno": "2016150948",
+                    "nombre": "GERALDINE LIZBETH",
+                    "apellidoPaterno": "TORRES",
+                    "apellidoMaterno": "GAGO"
+                },
+                {
+                    "codigoAlumno": "2016153376",
+                    "nombre": "YHON GUIDO",
+                    "apellidoPaterno": "PAREJA",
+                    "apellidoMaterno": "RAMOS"
+                },
+                {
+                    "codigoAlumno": "2016201552",
+                    "nombre": "LUIS FERNANDO",
+                    "apellidoPaterno": "TAPARA",
+                    "apellidoMaterno": "MAMANI"
+                },
+                {
+                    "codigoAlumno": "2017101100",
+                    "nombre": "MILAGROS MARIAN",
+                    "apellidoPaterno": "AVILA",
+                    "apellidoMaterno": "ORTIZ"
+                },
+                {
+                    "codigoAlumno": "2017101364",
+                    "nombre": "SEBASTIAN",
+                    "apellidoPaterno": "CAÑAMERO",
+                    "apellidoMaterno": "ALVA"
+                },
+                {
+                    "codigoAlumno": "2017103151",
+                    "nombre": "ERIKA",
+                    "apellidoPaterno": "AGUILAR",
+                    "apellidoMaterno": "ROJAS"
+                },
+                {
+                    "codigoAlumno": "2017109324",
+                    "nombre": "SAYETH ANAID",
+                    "apellidoPaterno": "GALLEGOS",
+                    "apellidoMaterno": "SOLIS"
+                },
+                {
+                    "codigoAlumno": "2017112325",
+                    "nombre": "ANTHONY",
+                    "apellidoPaterno": "PASCAL",
+                    "apellidoMaterno": "CABRERA"
+                },
+                {
+                    "codigoAlumno": "2017113005",
+                    "nombre": "SHIRLEY ALESSANDRA",
+                    "apellidoPaterno": "CABRERA",
+                    "apellidoMaterno": "CAJO"
+                },
+                {
+                    "codigoAlumno": "2017115123",
+                    "nombre": "CYNTHIA",
+                    "apellidoPaterno": "GRANADOS",
+                    "apellidoMaterno": "AQUINO"
+                },
+                {
+                    "codigoAlumno": "2017207606",
+                    "nombre": "RONNY ",
+                    "apellidoPaterno": "GARCIA",
+                    "apellidoMaterno": "CHOQUE"
+                },
+                {
+                    "codigoAlumno": "2017210704",
+                    "nombre": "NATHALY ROCIO",
+                    "apellidoPaterno": "GOMEZ",
+                    "apellidoMaterno": "CHIPANI"
+                },
+                {
+                    "codigoAlumno": "2017211172",
+                    "nombre": "PAMELA SHARON",
+                    "apellidoPaterno": "VILLACORTA",
+                    "apellidoMaterno": "VERA"
+                },
+                {
+                    "codigoAlumno": "2017211227",
+                    "nombre": "LISSY ROSARIO",
+                    "apellidoPaterno": "HUANACCHIRI",
+                    "apellidoMaterno": "PILARES"
+                },
+                {
+                    "codigoAlumno": "2017211734",
+                    "nombre": "STEFANY SARA",
+                    "apellidoPaterno": "LLACSA",
+                    "apellidoMaterno": "PISCONTE"
+                },
+                {
+                    "codigoAlumno": "2018104166",
+                    "nombre": "YENMILLY DAILLY",
+                    "apellidoPaterno": "GUEVARA",
+                    "apellidoMaterno": "SAAVEDRA"
+                },
+                {
+                    "codigoAlumno": "2018114877",
+                    "nombre": "JHON ELIAS",
+                    "apellidoPaterno": "MAMANI",
+                    "apellidoMaterno": "PARI"
+                }
+            ]
+        }
+    ],
+    "dato2": null,
+    "actionCode": null,
+    "idPagoElectronico": null,
+    "totalFilas": null,
+    "totalPages": null
+}

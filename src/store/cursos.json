@@ -1,0 +1,303 @@
+{
+    "resultado": 1,
+    "mensaje": "Consulta Satisfactorias",
+    "dato": [
+        {
+            "curcodi": "35103",
+            "curnomb": "HISTORIA GENERAL"
+        },
+        {
+            "curcodi": "35104",
+            "curnomb": "LÓGICA"
+        },
+        {
+            "curcodi": "35105",
+            "curnomb": "PSICOLOGÍA"
+        },
+        {
+            "curcodi": "35106",
+            "curnomb": "METODOLOGÍA DEL TRABAJO UNIVERSITARIO"
+        },
+        {
+            "curcodi": "35107",
+            "curnomb": "COMUNICACIÓN I"
+        },
+        {
+            "curcodi": "35108",
+            "curnomb": "INGLES I"
+        },
+        {
+            "curcodi": "35110",
+            "curnomb": "MATEMÁTICA II"
+        },
+        {
+            "curcodi": "35111",
+            "curnomb": "OFIMÁTICA II"
+        },
+        {
+            "curcodi": "35112",
+            "curnomb": "EDUCACIÓN AMBIENTAL"
+        },
+        {
+            "curcodi": "35113",
+            "curnomb": "FILOSOFÍA"
+        },
+        {
+            "curcodi": "35114",
+            "curnomb": "DESARROLLO PERSONAL"
+        },
+        {
+            "curcodi": "35115",
+            "curnomb": "COMUNICACIÓN II"
+        },
+        {
+            "curcodi": "35116",
+            "curnomb": "INGLES II"
+        },
+        {
+            "curcodi": "35201",
+            "curnomb": "FUNDAMENTOS DE MARKETING"
+        },
+        {
+            "curcodi": "35202",
+            "curnomb": "ECONOMÍA GENERAL"
+        },
+        {
+            "curcodi": "35203",
+            "curnomb": "ANÁLISIS MATEMÁTICO"
+        },
+        {
+            "curcodi": "35204",
+            "curnomb": "DERECHO CONSTITUCIONAL Y ADMINISTRATIVO"
+        },
+        {
+            "curcodi": "35205",
+            "curnomb": "ADMINISTRACIÓN GENERAL"
+        },
+        {
+            "curcodi": "35206",
+            "curnomb": "INDUCCIÓN A LOS NEGOCIOS"
+        },
+        {
+            "curcodi": "35207",
+            "curnomb": "ÉTICA"
+        },
+        {
+            "curcodi": "35208",
+            "curnomb": "INGLES III"
+        },
+        {
+            "curcodi": "35209",
+            "curnomb": "GESTIÓN DE IMPORTACIÓN"
+        },
+        {
+            "curcodi": "35210",
+            "curnomb": "INVESTIGACIÓN DE MERCADOS"
+        },
+        {
+            "curcodi": "35211",
+            "curnomb": "MICROECONOMÍA"
+        },
+        {
+            "curcodi": "35212",
+            "curnomb": "ESTADÍSTICA I"
+        },
+        {
+            "curcodi": "35213",
+            "curnomb": "CONTABILIDAD GENERAL"
+        },
+        {
+            "curcodi": "35214",
+            "curnomb": "ADMINISTRACIÓN I"
+        },
+        {
+            "curcodi": "35215",
+            "curnomb": "LOGÍSTICA"
+        },
+        {
+            "curcodi": "35216",
+            "curnomb": "INGLES IV"
+        },
+        {
+            "curcodi": "35301",
+            "curnomb": "GESTIÓN DE EXPORTACIÓN"
+        },
+        {
+            "curcodi": "35302",
+            "curnomb": "DIRECCIÓN DE MARKETING"
+        },
+        {
+            "curcodi": "35303",
+            "curnomb": "MACROECONOMÍA"
+        },
+        {
+            "curcodi": "35304",
+            "curnomb": "ESTADÍSTICA II"
+        },
+        {
+            "curcodi": "35305",
+            "curnomb": "COSTOS Y PRESUPUESTOS"
+        },
+        {
+            "curcodi": "35307",
+            "curnomb": "ENVASES Y EMBALAJES"
+        },
+        {
+            "curcodi": "35308",
+            "curnomb": "INGLES V"
+        },
+        {
+            "curcodi": "35309",
+            "curnomb": "CONTRATO DE NEGOCIOS INTERNACIONALES"
+        },
+        {
+            "curcodi": "35310",
+            "curnomb": "INVESTIGACIÓN OPERATIVA"
+        },
+        {
+            "curcodi": "35311",
+            "curnomb": "MATEMÁTICA FINANCIERA"
+        },
+        {
+            "curcodi": "35312",
+            "curnomb": "DERECHO COMERCIAL"
+        },
+        {
+            "curcodi": "35313",
+            "curnomb": "ADMINISTRACIÓN DE PERSONAL"
+        },
+        {
+            "curcodi": "35314",
+            "curnomb": "GESTIÓN DE OPERACIONES"
+        },
+        {
+            "curcodi": "35315",
+            "curnomb": "INVESTIGACIÓN, DESARROLLO E INNOVACIÓN"
+        },
+        {
+            "curcodi": "35316",
+            "curnomb": "INGLES VI"
+        },
+        {
+            "curcodi": "35401",
+            "curnomb": "COMERCIO INTERNACIONAL"
+        },
+        {
+            "curcodi": "35402",
+            "curnomb": "ECONOMÍA INTERNACIONAL"
+        },
+        {
+            "curcodi": "35403",
+            "curnomb": "ADMINISTRACIÓN FINANCIERA I"
+        },
+        {
+            "curcodi": "35404",
+            "curnomb": "SISTEMA DE INFORMACIÓN GERENCIAL"
+        },
+        {
+            "curcodi": "35405",
+            "curnomb": "DESARROLLO ORGANIZACIONAL"
+        },
+        {
+            "curcodi": "35406",
+            "curnomb": "GESTIÓN DE LA CALIDAD"
+        },
+        {
+            "curcodi": "35407",
+            "curnomb": "DEFENSA Y PREVENCIÓN DE DESASTRES"
+        },
+        {
+            "curcodi": "35408",
+            "curnomb": "INGLÉS PARA NEGOCIOS I"
+        },
+        {
+            "curcodi": "35409",
+            "curnomb": "MARKETING INTERNACIONAL"
+        },
+        {
+            "curcodi": "35410",
+            "curnomb": "FORMULACIÓN DE PROYECTOS DE INVERSIÓN"
+        },
+        {
+            "curcodi": "35411",
+            "curnomb": "ADMINISTRACIÓN FINANCIERA II"
+        },
+        {
+            "curcodi": "35412",
+            "curnomb": "RACIONALIZACIÓN ADMINISTRATIVA"
+        },
+        {
+            "curcodi": "35413",
+            "curnomb": "REINGENIERÍA DE NEGOCIOS"
+        },
+        {
+            "curcodi": "35414",
+            "curnomb": "INGLÉS PARA NEGOCIOS II"
+        },
+        {
+            "curcodi": "35415",
+            "curnomb": "METODOLOGÍA DE LA INVESTIGACIÓN CIENTÍFICA"
+        },
+        {
+            "curcodi": "35501",
+            "curnomb": "INTERNATIONAL MANAGEMENT LOGISTIC"
+        },
+        {
+            "curcodi": "35502",
+            "curnomb": "EVALUACIÓN Y CONTROL DE PROYECTOS"
+        },
+        {
+            "curcodi": "35503",
+            "curnomb": "INTERNATIONAL FINANCE BUSINESS"
+        },
+        {
+            "curcodi": "35504",
+            "curnomb": "AUDITORIA ADMINISTRATIVA"
+        },
+        {
+            "curcodi": "35505",
+            "curnomb": "RESPONSABILIDAD SOCIAL EMPRESARIAL"
+        },
+        {
+            "curcodi": "35506",
+            "curnomb": "INVESTIGACIÓN I"
+        },
+        {
+            "curcodi": "35507",
+            "curnomb": "INTERNATIONAL BUSINESS MANAGEMENT"
+        },
+        {
+            "curcodi": "35508",
+            "curnomb": "GERENCIA DE PROYECTOS"
+        },
+        {
+            "curcodi": "35509",
+            "curnomb": "ADMINISTRACIÓN ESTRATÉGICA"
+        },
+        {
+            "curcodi": "35510",
+            "curnomb": "LIDERAZGO EMPRESARIAL"
+        },
+        {
+            "curcodi": "35511",
+            "curnomb": "GERENCIA INTEGRAL"
+        },
+        {
+            "curcodi": "35512",
+            "curnomb": "INVESTIGACIÓN II"
+        },
+        {
+            "curcodi": "35E02",
+            "curnomb": "SEGURIDAD INDUSTRIAL Y SALUD OCUPACIONAL"
+        },
+        {
+            "curcodi": "35E04",
+            "curnomb": "ADMINISTRACIÓN ADUANERA"
+        }
+    ],
+    "dato2": null,
+    "actionCode": null,
+    "idPagoElectronico": null,
+    "totalFilas": null,
+    "totalPages": null
+}
