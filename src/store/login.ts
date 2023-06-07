@@ -12,35 +12,40 @@ import timezone from 'dayjs/plugin/timezone'
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
-import { createServer } from "miragejs"
+// import { createServer } from "miragejs"
+import { listarCursoService, listarInformacionService, listarPlanService } from '../services/asistencia/asistencia'
 
-//  https://uapvirtual-dev.uap.edu.pe:8443/uapmatriculapruebaback/api/campus/listar-plan
+// //  https://uapvirtual-dev.uap.edu.pe:8443/uapmatriculapruebaback/api/campus/listar-plan
 
-createServer({
-    
-  routes() {
-    this.urlPrefix = 'https://uapvirtual-dev.uap.edu.pe:8443/uapmatriculapruebaback/api';
-    this.post("/campus/listar-plan", (schema, request) => ({
-        dato: planes.dato
-    }))
+// createServer({
 
-    this.post("/campus/listar-curso", (schema, request) => ({
-        dato: cursos.dato
-    }))
+//     routes() {
+//         this.urlPrefix = 'https://uapvirtual-dev.uap.edu.pe:8443/uapmatriculapruebaback/api';
+//         this.post("https://uapvirtual-dev.uap.edu.pe:8443/uapmatriculapruebaback/api/campus/listar-plan", (schema, request) => ({
+//             dato: planes.dato
+//         }))
 
-    this.post("/campus/listar-informacion", (schema, request) => ({
-        dato: secciones.dato
-    }))
-    this.passthrough()
-    this.passthrough("http://localhost:5984/**")
-    
+//         this.post("https://uapvirtual-dev.uap.edu.pe:8443/uapmatriculapruebaback/api/campus/listar-curso", (schema, request) => ({
+//             dato: cursos.dato
+//         }))
 
-  },
-})
-// end
-// https://uapvirtual-dev.uap.edu.pe:8443/uapmatriculapruebaback/api/campus/listar-informacion
+//         this.post("https://uapvirtual-dev.uap.edu.pe:8443/uapmatriculapruebaback/api/campus/listar-informacion", (schema, request) => ({
+//             dato: secciones.dato
+//         }))
+//         this.passthrough()
+//         this.passthrough("http://localhost:5984/**")
 
-const url = "https://uapvirtual-dev.uap.edu.pe:8443/uapmatriculapruebaback/api/";
+
+//     },
+// })
+
+
+interface Solicitud {
+    plan: [];
+    loadingPlan: boolean;
+    listarPlan: () => {};
+
+}
 
 const useStore = create((set, get) => ({
     username: null,
@@ -51,12 +56,11 @@ const useStore = create((set, get) => ({
     alumnos: null,
 
     login: async (data: any) => {
-        console.log('login with user: ' + data.username + ' and password: ' + data.password)
         if (['usuario01', 'usuario02'].includes(data.username) && (data.password == 'password')) {
-            let result = await axios.post(url + 'campus/listar-plan')
-            set({ 
+            let result = await listarPlanService();
+            set({
                 username: data.username,
-                planes: result.data
+                planes: result
             });
         }
         return false
@@ -64,27 +68,27 @@ const useStore = create((set, get) => ({
 
     setAlumnos: async (data: any) => {
         console.log('set Alumnos')
-        set({alumnos: data})
+        set({ alumnos: data })
     },
 
     getCursos: async (data: any) => {
-        console.log('get cursos')
-        let result = await axios.post(url + 'campus/listar-curso')
-            set({ 
-                cursos: result.data
-            });
+        let result = await listarCursoService(data);
+        set({
+            cursos: result
+        });
         return false
     },
 
-    getSecciones: async (data: any) => {
-        console.log('get secciones')
 
-        let result = await axios.post(url + 'campus/listar-informacion')
-        set({ 
-            //curso: data,
-            secciones: result.data
+    getSecciones: async (codigoPlan: any, codigoCurso: any) => {
+
+        let result = await listarInformacionService(codigoPlan, codigoCurso);
+        console.log("result = ", result);
+        set({
+            secciones: result
         });
         return false
+
     },
 
     setCurso: (data: any) => {
@@ -97,18 +101,18 @@ const useStore = create((set, get) => ({
     getAlumnos: (data: any) => {
         console.log('get alumnos')
         console.log(secciones.dato.length)
-        
+
         for (let i = 0; i < secciones.dato.length; i++) {
             console.log(i + '//' + secciones.dato[i])
-           
+
             if (secciones.dato && secciones.dato[i] && secciones.dato[i].seccodi && secciones.dato[i].seccodi == data) {
-                set({ 
+                set({
                     alumnos: secciones.dato[i].alumnos
                 })
             }
-            
+
         }
-        
+
         return false
     },
 
@@ -121,7 +125,7 @@ const useStore = create((set, get) => ({
         const password = 'admin';
         const databaseUrl = 'http://localhost:5984/asistencias'; // Replace with your CouchDB database URL
 
-        let documentData = { ...data, fecha: dayjs().tz('America/Lima').format('YYYY-MM-DD hh:mm:ss')}
+        let documentData = { ...data, fecha: dayjs().tz('America/Lima').format('YYYY-MM-DD hh:mm:ss') }
         try {
             await axios.post(databaseUrl, documentData, {
                 auth: {
