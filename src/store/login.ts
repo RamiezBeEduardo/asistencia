@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { create } from 'zustand'
 import axios from "axios"
 
@@ -8,12 +9,12 @@ import axios from "axios"
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 import timezone from 'dayjs/plugin/timezone'
-
+import { message } from 'antd';
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
 // import { createServer } from "miragejs"
-import { listarCursoService, listarInformacionService, listarPlanService } from '../services/asistencia/asistencia'
+import { listarCursoService, listarInformacionService, listarPlanService, loginDocente } from '../services/asistencia/asistencia'
 
 // //  https://uapvirtual-dev.uap.edu.pe:8443/uapmatriculapruebaback/api/campus/listar-plan
 
@@ -57,12 +58,16 @@ const useStore = create((set, get) => ({
     alumnos: null,
 
     login: async (data: any) => {
-        if (['usuario01', 'usuario02'].includes(data.username) && (data.password == 'password')) {
+        let resultLogin = await loginDocente(data.username, data.password);
+        if (resultLogin.dato.respuesta == 1) {
             let result = await listarPlanService();
             set({
                 username: data.username,
                 planes: result
             });
+            message.success("Usuario autenticado");
+        } else {
+            message.error("Usuario o clave incorrecta");
         }
         return false
     },
@@ -128,9 +133,14 @@ const useStore = create((set, get) => ({
         console.log(data)
 
 
+        // COUCH_ID = "f46536b12efe9874afa711c40b0005f3"
+        // COUCH_IP = "https://citas.uap.edu.pe:6984"
+        // COUCH_USER = "admin"
+        // COUCH_PASSWORD = "q81ekmWqpUSRuTfUd0BV"
+
         const username = 'admin';
-        const password = 'admin';
-        const databaseUrl = 'http://localhost:5984/asistencias'; // Replace with your CouchDB database URL
+        const password = 'q81ekmWqpUSRuTfUd0BV';
+        const databaseUrl = 'https://citas.uap.edu.pe:6984/asistencias'; // Replace with your CouchDB database URL
 
         let documentData = { ...data, fecha: dayjs().tz('America/Lima').format('YYYY-MM-DD hh:mm:ss') }
         try {

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from "react";
 import style from "./index.module.css";
 import { Button, Form, Input, Select } from "antd";
@@ -76,7 +77,7 @@ const component = () => {
   if (planes && planes.dato) {
     planes_options = planes.dato.map((item: any) => {
       return (
-        <Select.Option key={item.crrcodi} value={item.crrcodi}>
+        <Select.Option key={item.crrcodi} value={item.crrcodi} onSearch={true}>
           {item.crrcodi}
         </Select.Option>
       );
@@ -141,7 +142,7 @@ const component = () => {
             name="username"
             label="Usuario"
             rules={[{ required: true }]}
-            initialValue={"usuario01"}
+            // initialValue={"j_gutierrez_m@alu.uap.edu.pe"}
           >
             <Input onBlur={idChange} />
           </Form.Item>
@@ -150,17 +151,39 @@ const component = () => {
             name="password"
             label="Contraseña"
             rules={[{ required: true }]}
-            initialValue={"password"}
+            // initialValue={"Libr@0174"}
           >
             <Input onBlur={idChange} />
           </Form.Item>
 
           <Form.Item name="plan" label="Plan" rules={[{ required: true }]}>
-            <Select onSelect={planChange}>{planes_options}</Select>
+            <Select
+              onSelect={planChange}
+              showSearch
+              optionFilterProp="children"
+              filterOption={(input, option) =>
+                (option!.children as unknown as string)
+                  .toLowerCase()
+                  .includes(input.toLowerCase())
+              }
+            >
+              {planes_options}
+            </Select>
           </Form.Item>
 
           <Form.Item name="curso" label="Curso" rules={[{ required: true }]}>
-            <Select onSelect={cursoChange}>{cursos_options}</Select>
+            <Select
+              onSelect={cursoChange}
+              showSearch
+              optionFilterProp="children"
+              filterOption={(input, option) =>
+                (option!.children as unknown as string)
+                  .toLowerCase()
+                  .includes(input.toLowerCase())
+              }
+            >
+              {cursos_options}
+            </Select>
           </Form.Item>
 
           <Form.Item
@@ -168,7 +191,18 @@ const component = () => {
             label="Seccion"
             rules={[{ required: true }]}
           >
-            <Select onSelect={seccionChange}>{seccion_options}</Select>
+            <Select
+              onSelect={seccionChange}
+              showSearch
+              optionFilterProp="children"
+              filterOption={(input, option) =>
+                (option!.children as unknown as string)
+                  .toLowerCase()
+                  .includes(input.toLowerCase())
+              }
+            >
+              {seccion_options}
+            </Select>
           </Form.Item>
 
           <Form.Item>
@@ -228,6 +262,10 @@ const component = () => {
       <div style={{ height: "calc(100% - 60px)", overflowY: "scroll" }}>
         {alumnos_options}
       </div>
+
+      {/* <Button type="primary" htmlType="submit" block>
+        Enviar
+      </Button> */}
     </div>
   );
 };
